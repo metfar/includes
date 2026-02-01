@@ -129,7 +129,7 @@ If you need static safety, prefer standard Python imports.
 
 
 ##  License
-
+```
   Copyright 2018- William Martinez Bas <metfar@gmail.com>
 
   This program is free software; you can redistribute it and/or modify
@@ -152,8 +152,8 @@ If you need static safety, prefer standard Python imports.
  Version:			0.8.4
  Description;		allows to import using include/includes
  ---------------------------------------------------------------------
+```
 
----
 
 ## Philosophy
 
