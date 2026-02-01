@@ -1,15 +1,3 @@
-Perfecto. Entonces te dejo un **README.md** claro, técnico y honesto, alineado con:
-
-* namespace package (PEP 420)
-* uso explícito (`includes.core`)
-* tu perfil sysadmin/dev
-* sin marketing inflado
-
-Puedes copiarlo tal cual.
-
----
-
-````markdown
 # includes (namespace package)
 
 Small, explicit, and pragmatic helpers for dynamic imports in Python.
@@ -23,40 +11,26 @@ not as a general-purpose replacement for Python’s import system.
 
 ---
 
-## 📦 Package type
+## Package type
 
 This is a **namespace package** (PEP 420):
 
-- There is **no `__init__.py`**
-- The namespace can be extended by multiple distributions
-- Submodules must be imported explicitly
-
-This design allows future extensions such as:
-
-```text
-includes.core
-includes.gis
-includes.pygame
-includes.audio
-````
-
 installed independently but sharing the same `includes` namespace.
 
----
-
-## 🧱 Structure
+## Structure
 
 ```text
 includes/
 ├── includes/
 │   └── core.py
 ├── pyproject.toml
-└── README.md
+├── README.md
+└── test.py
+
 ```
 
----
 
-## 🚀 Installation
+## Installation
 
 ### Development / editable install (recommended)
 
