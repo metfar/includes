@@ -1,4 +1,4 @@
-# includes (namespace package)
+# includes (python package)
 
 Small, explicit, and pragmatic helpers for dynamic imports in Python.
 
