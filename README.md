@@ -53,6 +53,12 @@ environment.
 ### Example
 
 ```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#pylint:disable=W0301
+
+from includes import include,includes;
+
 include("numpy as np");
 include("pygame as pg");
 include("* from sys");
@@ -121,17 +127,6 @@ If you need static safety, prefer standard Python imports.
 
 ---
 
-##  Why a namespace package?
-
-* Avoids monolithic utility modules
-* Allows independent extensions under `includes.*`
-* Clean separation of concerns
-* Future-proof structure
-
-If you need `from includes import *`, this is **not** the right design.
-Use a classic package instead.
-
----
 
 ##  License
 
@@ -165,3 +160,10 @@ Use a classic package instead.
 > Explicit is better than implicit.
 > Dynamic, but controlled.
 > Simple tools for people who know what they are doing.
+
+
+### Enjoy
+
+Have a nice one!
+
+                                                       - oOo -
